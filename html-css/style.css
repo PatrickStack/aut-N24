@@ -17,7 +17,6 @@ body {
   line-height: 24px;
   background-color: #fff;
   color:  #4A4B4C;
-  ;
 }
 img {
 max-width: 100%;
@@ -31,4 +30,110 @@ height: auto;
   margin-left: auto;
   margin-right: auto;
 }
+/* main */
+.main-link {
+  display: block;
+  padding: 0;
+  margin: 0;
+  }
+  .main-link-item {
+    padding:13px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color:#7296EC;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  .main-link-item:hover {
+    opacity: 0.8;
+  }
+  .main-link-item:active {
+    opacity: 0.6;
+  }
 /* rubik 400,500,700t */
+
+/* site header */
+.site-header {
+}
+.site-header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6f6f6;
+}
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+
+
+}
+.container {
+}
+.site-header-logo {
+  padding: 9px 8px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 7px;
+}
+.site-header-logo:hover {
+  opacity: 0.8;
+}
+.site-header-logo:active {
+  opacity: 0.6;
+}
+
+
+/* dollar */
+.dollar-sum {
+display: flex;
+align-items: center;
+list-style: none;
+padding: 0;
+margin: 0;
+margin-right: auto;
+margin-left: 30px;
+}
+.dollar-sum-list {
+  margin-right: 30px;
+}
+.dollar-sum-logo:not(:last-child) {
+  margin-right: 5px;
+}
+.dollar-sum-logo {
+  color:#2959ce ;
+
+}
+.dollar-sum-narx {
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  text-align: left;
+}
+
+
+/* languange */
+.header-languange {
+  background-color:#DCE6FF;
+  display: flex;
+  margin-right: 25px;
+  padding: 3px;
+  border-radius: 39px;
+}
+.header-languange-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+font-size: 13px;
+text-decoration: none;
+color: #A6A6A6;
+
+}
+.header-languange-item-active {
+  background-color: #fff;
+border-radius: 50px;
+color: #111;
+}
