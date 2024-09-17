@@ -145,13 +145,62 @@ margin-left: 30px;
   justify-content: center;
   width: 30px;
   height: 30px;
-font-size: 13px;
-text-decoration: none;
-color: #A6A6A6;
+  font-size: 13px;
+  text-decoration: none;
+  color: #A6A6A6;
 
 }
 .header-languange-item-active {
   background-color: #fff;
 border-radius: 50px;
 color: #111;
+}
+
+
+
+/* SITENAV */
+.sitenav {
+  border-bottom: 1px solid #D1D1D1;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sitenavitem {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sitenavitem:not(:last-child) {
+  margin-right: 45px;
+}
+.sitenav-link {
+  display: block;
+  text-decoration: none;
+  color: #7f7f7f;
+  font-weight: 500;
+  line-height: 23px;
+}
+.sitenav-link:hover {
+  color: #7296ae;
+}
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+
+
+/* site-headeer IMG  */
+.img-iphone {
+  padding-top: 40px;
+}
+.img-iphone-list {
+  display: flex;
+}
+.img-iphone-item {
 }
