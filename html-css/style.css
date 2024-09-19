@@ -204,3 +204,9 @@ color: #111;
 }
 .img-iphone-item {
 }
+
+
+/* Main */
+.main-content {
+  flex-grow: 1;
+}
