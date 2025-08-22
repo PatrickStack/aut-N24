@@ -91,7 +91,6 @@ img {
   align-items: center;
 }
 
-
 .site-header-logo {
   padding: 9px 8px;
   display: flex;
@@ -105,8 +104,7 @@ img {
   opacity: 0.6;
 }
 
-
-/* dollar */
+/* Dollar */
 .dollar-sum {
   display: flex;
   align-items: center;
@@ -134,8 +132,7 @@ img {
   text-align: left;
 }
 
-
-/* languange */
+/* Languange */
 .header-languange {
   background-color:#DCE6FF;
   display: flex;
@@ -160,9 +157,7 @@ img {
   color: #111;
 }
 
-
-
-/* sitenav */
+/* Sitenav */
 .sitenav {
   border-bottom: 1px solid #D1D1D1;
   padding-bottom: 15px;
@@ -196,8 +191,6 @@ img {
 .sitenav-link:active {
   opacity: 0.6;
 }
-
-
 
 /* site-headeer IMG  */
 .img-iphone {
